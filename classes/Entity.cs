@@ -67,13 +67,11 @@ public class Entity
     // name.
     public override string ToString()
     {
-        string a = "Entity"
-        return a;
+        return "Entity object";
     }
 
      protected virtual bool tryDodge3()
     {
         return RandomManager.roleD100() <= 1;
     }
-
 }
