@@ -63,7 +63,6 @@ public class Entity
     // name.
     public override string ToString()
     {
-        return "Entity";
+        return "Entity object";
     }
-
 }
