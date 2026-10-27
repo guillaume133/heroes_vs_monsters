@@ -65,5 +65,4 @@ public class Entity
     {
         return "Entity object";
     }
-
 }
