@@ -59,11 +59,21 @@ public class Entity
     {
         return RandomManager.roleD100() <= 1;
     }
+    protected virtual bool tryDodge2()
+    {
+        return RandomManager.roleD100() <= 1;
+    }
 
     // name.
     public override string ToString()
     {
-        return "Entity";
+        string a = "Entity"
+        return a;
+    }
+
+     protected virtual bool tryDodge3()
+    {
+        return RandomManager.roleD100() <= 1;
     }
 
 }
